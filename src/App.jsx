@@ -55,9 +55,19 @@ function App() {
         <PabloWideImg src={memeNames.pablorocks} />
         <PabloWideImg src={memeNames.wolfofpablo} />
         <PabloWideImg src={memeNames.pablowhitehouse} />
+        <PabloWideImg src={memeNames.pablorocks} />
+        <PabloWideImg src={memeNames.wolfofpablo} />
+        <PabloWideImg src={memeNames.pablowhitehouse} />
       </Marquee>
 
       <Marquee direction="right">
+        <PabloSmallImg src={memeNames.pabloescobar} />
+        <PabloSmallImg src={memeNames.pablowar} />
+        <PabloSmallImg src={memeNames.pabloparty} />
+        <PabloSmallImg src={memeNames.pablomcdees} />
+        <PabloSmallImg src={memeNames.pablobus} />
+        <PabloSmallImg src={memeNames.pabloree} />
+        <PabloSmallImg src={memeNames.pabloirish} />
         <PabloSmallImg src={memeNames.pabloescobar} />
         <PabloSmallImg src={memeNames.pablowar} />
         <PabloSmallImg src={memeNames.pabloparty} />
