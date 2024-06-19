@@ -15,7 +15,7 @@ export default function Header() {
             <img src={pc} className="content-fit z-0 rotate-90" alt="logo" />
           </div>
         </div>
-        <h1 className="flex justify-center items-center absolute text-[150px] md:text-[200px] lg:text-[300px] xl:text-[450px] font-open leading-[450px]">
+        <h1 className="flex justify-center items-center top-[-150px] lg:top-auto absolute text-[120px] md:text-[200px] lg:text-[300px] xl:text-[450px] font-open leading-[450px]">
           PABLO
         </h1>
       </div>

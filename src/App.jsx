@@ -16,25 +16,28 @@ function App() {
       <Header />
       <div className="px-10 flex flex-col xl:flex-row justify-center pt-5 overflow-visible w-auto">
         <p
-          className="bg-white text-center
+          className="bg-white text-center min-w-96 
          md:w-auto p-4 font-semibold 
-         text-[20px] md:text-[35px] lg:text-[50px] xl:text-[60px] text-black"
+         text-[20px] md:text-[35px] lg:text-[40px] xl:text-[50px] text-black"
         >
           3De8feegw4G4wggegsqeqkaiopump
         </p>
         <div className="flex flex-row justify-center items-center">
-          <div className="h-10 w-10 md:h-20 md:w-20">
+          <div className="h-24 w-24 md:h-20 md:w-20">
             <a
               className="hover:cursor-pointer"
               target="_blank"
               href="https://x.com/elpablosol"
             >
-              <img src={x} className="content-fit" />
+              <img src={x} className="content-fit " />
             </a>
           </div>
 
-          <div className="h-10 w-10 md:h-20 md:w-20 flex justify-center items-center">
-            <img src={pump} className="h-8 w-8 md:h-14 md:w-14 w content-fit" />
+          <div className="h-24 w-24 md:h-20 md:w-20 flex justify-center items-center">
+            <img
+              src={pump}
+              className="h-16 w-16 md:h-14 md:w-14 w content-fit"
+            />
           </div>
         </div>
       </div>
