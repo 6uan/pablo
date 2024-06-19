@@ -5,7 +5,7 @@ import x from "./assets/x.webp";
 import pump from "./assets/pump.png";
 import Marquee from "react-fast-marquee";
 import PabloImg from "./components/PabloImg";
-import memeNames from "./memeImages.js";
+import memeNames from "./utils/memeImages.js";
 
 function App() {
   console.log(memeNames.pablo);
@@ -53,7 +53,7 @@ function App() {
         <PabloImg src={memeNames.pabloree} />
         <PabloImg src={memeNames.pablobernie} />
       </Marquee>
-
+      {/* 
       <Marquee direction="down">
         <PabloImg src={memeNames.pablo} />
         <PabloImg src={memeNames.pablochain} />
@@ -63,7 +63,7 @@ function App() {
         <PabloImg src={memeNames.pablomodelo} />
         <PabloImg src={memeNames.pabloree} />
         <PabloImg src={memeNames.pablobernie} />
-      </Marquee>
+      </Marquee> */}
     </>
   );
 }
