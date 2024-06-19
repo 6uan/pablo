@@ -8,6 +8,15 @@ import pabloree from "../assets/pabloree.webp";
 import pablobernie from "../assets/pablobernie.png";
 import lifeofpablo from "../assets/lifeofpablo.png";
 import pabloescobar from "../assets/pabloescobar.webp";
+import pablowar from "../assets/pablowar.webp";
+import pablorocks from "../assets/pablorocks.webp";
+import pabloparty from "../assets/pabloparty.webp";
+import pablomcdees from "../assets/pablomcdees.webp";
+import pablobus from "../assets/pablobus.webp";
+import pablomariachi from "../assets/pablomariachi.webp";
+import pabloirish from "../assets/pabloirish.webp";
+import wolfofpablo from "../assets/wolfofpablo.webp";
+import pablowhitehouse from "../assets/pablowhitehouse.webp";
 
 // Map the imports to an object
 const memeNames = {
@@ -21,6 +30,15 @@ const memeNames = {
   pablobernie,
   lifeofpablo,
   pabloescobar,
+  pablowar,
+  pablorocks,
+  pabloparty,
+  pablomcdees,
+  pablobus,
+  pablomariachi,
+  pabloirish,
+  wolfofpablo,
+  pablowhitehouse,
 };
 
 export default memeNames;

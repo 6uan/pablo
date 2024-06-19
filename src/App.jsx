@@ -5,7 +5,9 @@ import x from "./assets/x.webp";
 import pump from "./assets/pump.png";
 import Marquee from "react-fast-marquee";
 import PabloImg from "./components/PabloImg";
+import PabloSmallImg from "./components/PabloSmallImg";
 import memeNames from "./utils/memeImages.js";
+import PabloWideImg from "./components/PabloWideImg.jsx";
 
 function App() {
   console.log(memeNames.pablo);
@@ -45,21 +47,28 @@ function App() {
         <PabloImg src={memeNames.pablofrench} />
         <PabloImg src={memeNames.lifeofpablo} />
         <PabloImg src={memeNames.pablomodelo} />
-        <PabloImg src={memeNames.pabloree} />
+        <PabloImg src={memeNames.pablomariachi} />
         <PabloImg src={memeNames.pablobernie} />
       </Marquee>
 
       <Marquee>
-        <PabloImg src={memeNames.pabloescobar} />
-        <PabloImg src={memeNames.pablochain} />
-        <PabloImg src={memeNames.pablobeach} />
-        <PabloImg src={memeNames.pablofrench} />
-        <PabloImg src={memeNames.lifeofpablo} />
-        <PabloImg src={memeNames.pablomodelo} />
-        <PabloImg src={memeNames.pabloree} />
-        <PabloImg src={memeNames.pablobernie} />
+        <PabloWideImg src={memeNames.pablorocks} />
+        <PabloWideImg src={memeNames.wolfofpablo} />
+        <PabloWideImg src={memeNames.pablowhitehouse} />
       </Marquee>
+
+      <Marquee direction="right">
+        <PabloSmallImg src={memeNames.pabloescobar} />
+        <PabloSmallImg src={memeNames.pablowar} />
+        <PabloSmallImg src={memeNames.pabloparty} />
+        <PabloSmallImg src={memeNames.pablomcdees} />
+        <PabloSmallImg src={memeNames.pablobus} />
+        <PabloSmallImg src={memeNames.pabloree} />
+        <PabloSmallImg src={memeNames.pabloirish} />
+      </Marquee>
+
       {/* 
+
       <Marquee direction="down">
         <PabloImg src={memeNames.pablo} />
         <PabloImg src={memeNames.pablochain} />
