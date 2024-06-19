@@ -22,7 +22,6 @@ import pabloheart from "../assets/pabloheart.png";
 import pablodrake from "../assets/pablodrake.webp";
 import pablofacetime from "../assets/pablofacetime.png";
 
-// Map the imports to an object
 const memeNames = {
   pablochain,
   pablo_og,

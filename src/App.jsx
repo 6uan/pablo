@@ -16,9 +16,9 @@ function App() {
       <Header />
       <div className="px-10 flex flex-col xl:flex-row justify-center pt-5 overflow-visible w-auto">
         <p
-          className="bg-white text-center min-w-96 
+          className="bg-white text-center 
          md:w-auto p-4 font-semibold 
-         text-[20px] md:text-[35px] lg:text-[40px] xl:text-[50px] text-black"
+         text-[15px] md:text-[35px] lg:text-[40px] xl:text-[50px] text-black"
         >
           3De8feegw4G4wggegsqeqkaiopump
         </p>
