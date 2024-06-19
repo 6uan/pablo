@@ -17,6 +17,10 @@ import pablomariachi from "../assets/pablomariachi.webp";
 import pabloirish from "../assets/pabloirish.webp";
 import wolfofpablo from "../assets/wolfofpablo.webp";
 import pablowhitehouse from "../assets/pablowhitehouse.webp";
+import pablotate from "../assets/pablotate.png";
+import pabloheart from "../assets/pabloheart.png";
+import pablodrake from "../assets/pablodrake.webp";
+import pablofacetime from "../assets/pablofacetime.png";
 
 // Map the imports to an object
 const memeNames = {
@@ -39,6 +43,10 @@ const memeNames = {
   pabloirish,
   wolfofpablo,
   pablowhitehouse,
+  pablotate,
+  pabloheart,
+  pablodrake,
+  pablofacetime,
 };
 
 export default memeNames;
