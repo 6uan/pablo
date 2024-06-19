@@ -7,6 +7,7 @@ import pablomodelo from "../assets/pablomodelo.webp";
 import pabloree from "../assets/pabloree.webp";
 import pablobernie from "../assets/pablobernie.png";
 import lifeofpablo from "../assets/lifeofpablo.png";
+import pabloescobar from "../assets/pabloescobar.webp";
 
 // Map the imports to an object
 const memeNames = {
@@ -19,6 +20,7 @@ const memeNames = {
   pabloree,
   pablobernie,
   lifeofpablo,
+  pabloescobar,
 };
 
 export default memeNames;

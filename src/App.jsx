@@ -12,22 +12,28 @@ function App() {
   return (
     <>
       <Header />
-      <div className="flex justify-center px-auto pt-5 overflow-visible w-auto">
-        <p className="bg-white w-auto p-4 font-semibold text-4xl text-black">
+      <div className="px-10 flex flex-col xl:flex-row justify-center pt-5 overflow-visible w-auto">
+        <p
+          className="bg-white text-center
+         md:w-auto p-4 font-semibold 
+         text-[20px] md:text-[35px] lg:text-[50px] xl:text-[60px] text-black"
+        >
           3De8feegw4G4wggegsqeqkaiopump
         </p>
-        <div className=" h-20 w-20">
-          <a
-            className="hover:cursor-pointer"
-            target="_blank"
-            href="https://x.com/elpablosol"
-          >
-            <img src={x} className="content-fit" />
-          </a>
-        </div>
+        <div className="flex flex-row justify-center items-center">
+          <div className="h-10 w-10 md:h-20 md:w-20">
+            <a
+              className="hover:cursor-pointer"
+              target="_blank"
+              href="https://x.com/elpablosol"
+            >
+              <img src={x} className="content-fit" />
+            </a>
+          </div>
 
-        <div className="h-20 h w-20 flex justify-center items-center">
-          <img src={pump} className="h-14 w-14 w content-fit" />
+          <div className="h-10 w-10 md:h-20 md:w-20 flex justify-center items-center">
+            <img src={pump} className="h-8 w-8 md:h-14 md:w-14 w content-fit" />
+          </div>
         </div>
       </div>
       <Content />
@@ -44,7 +50,7 @@ function App() {
       </Marquee>
 
       <Marquee>
-        <PabloImg src={memeNames.pablo} />
+        <PabloImg src={memeNames.pabloescobar} />
         <PabloImg src={memeNames.pablochain} />
         <PabloImg src={memeNames.pablobeach} />
         <PabloImg src={memeNames.pablofrench} />
