@@ -5,10 +5,10 @@ import x from "./assets/x.webp";
 import pump from "./assets/pump.png";
 import Marquee from "react-fast-marquee";
 import PabloImg from "./components/PabloImg";
-
-import pablo from "./assets/pablo.webp";
+import memeNames from "./memeImages.js";
 
 function App() {
+  console.log(memeNames.pablo);
   return (
     <>
       <Header />
@@ -17,7 +17,13 @@ function App() {
           3De8feegw4G4wggegsqeqkaiopump
         </p>
         <div className=" h-20 w-20">
-          <img src={x} className="content-fit" />
+          <a
+            className="hover:cursor-pointer"
+            target="_blank"
+            href="https://x.com/elpablosol"
+          >
+            <img src={x} className="content-fit" />
+          </a>
         </div>
 
         <div className="h-20 h w-20 flex justify-center items-center">
@@ -27,45 +33,36 @@ function App() {
       <Content />
 
       <Marquee direction="right">
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
+        <PabloImg src={memeNames.pablo} />
+        <PabloImg src={memeNames.pablochain} />
+        <PabloImg src={memeNames.pablobeach} />
+        <PabloImg src={memeNames.pablofrench} />
+        <PabloImg src={memeNames.lifeofpablo} />
+        <PabloImg src={memeNames.pablomodelo} />
+        <PabloImg src={memeNames.pabloree} />
+        <PabloImg src={memeNames.pablobernie} />
       </Marquee>
 
       <Marquee>
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
-        <PabloImg src={pablo} />
+        <PabloImg src={memeNames.pablo} />
+        <PabloImg src={memeNames.pablochain} />
+        <PabloImg src={memeNames.pablobeach} />
+        <PabloImg src={memeNames.pablofrench} />
+        <PabloImg src={memeNames.lifeofpablo} />
+        <PabloImg src={memeNames.pablomodelo} />
+        <PabloImg src={memeNames.pabloree} />
+        <PabloImg src={memeNames.pablobernie} />
+      </Marquee>
+
+      <Marquee direction="down">
+        <PabloImg src={memeNames.pablo} />
+        <PabloImg src={memeNames.pablochain} />
+        <PabloImg src={memeNames.pablobeach} />
+        <PabloImg src={memeNames.pablofrench} />
+        <PabloImg src={memeNames.lifeofpablo} />
+        <PabloImg src={memeNames.pablomodelo} />
+        <PabloImg src={memeNames.pabloree} />
+        <PabloImg src={memeNames.pablobernie} />
       </Marquee>
     </>
   );
