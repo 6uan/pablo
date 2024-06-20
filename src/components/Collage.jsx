@@ -35,7 +35,7 @@ export default function Collage() {
         <div className="col-start-1 col-end-4 row-start-4 row-end-5">
           <div className="flex justify-center items-center sm:h-full">
             <a
-              href="https://www.example.com"
+              href="https://photon-sol.tinyastro.io/en/lp/AqdyAiYFo5XT2DLkKXUbtceWEVrosg63UM1tLgoJKQZB"
               className="flex items-center justify-center font-rubik text-5xl bg-[#fdba74] text-white w-96 h-44 rounded-3xl hover:bg-[#ffa94d] hover:text-black transition-colors"
             >
               BUY $PABLO

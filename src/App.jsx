@@ -23,7 +23,7 @@ function App() {
          md:w-auto p-4 font-semibold font-rubik
          text-[13px] md:text-[24px] lg:text-[33px] xl:text-[40px] text-black"
         >
-          ----------------------------------------pump
+          8A4pneT8PPjYzkhBEkSc2gYEHe3sfsPDKpih9Pcjpump
         </p>
         <div className="flex flex-row justify-center items-center">
           <div className="h-24 w-24 md:h-20 md:w-20">
@@ -37,10 +37,17 @@ function App() {
           </div>
 
           <div className="h-24 w-24 md:h-20 md:w-20 flex justify-center items-center">
-            <img
-              src={pump}
-              className="h-16 w-16 md:h-14 md:w-14 w content-fit"
-            />
+            <a
+              className="hover:cursor-pointer"
+              target="_blank"
+              // TODO: change to pump link
+              href="https://pump.fun/HKHrp7JmTfXDiPukutNK1gcPWwr8HNeSo8rpa57Jpump"
+            >
+              <img
+                src={pump}
+                className="h-16 w-16 md:h-14 md:w-14 w content-fit"
+              />
+            </a>
           </div>
 
           <div className="h-24 w-24 md:h-20 md:w-20 flex justify-center items-center">
