@@ -10,13 +10,14 @@ import memeNames from "./utils/memeImages.js";
 import PabloWideImg from "./components/PabloWideImg.jsx";
 import Collage from "./components/Collage.jsx";
 import telegram from "./assets/telegram.png";
+import PabloHeader from "./components/PabloHeader.jsx";
 
 function App() {
   console.log(memeNames.pablo);
   return (
     <>
-      <Header />
-      <div className="px-10 flex flex-col xl:flex-row justify-center pt-5 overflow-visible w-auto">
+      <PabloHeader />
+      <div className="px-10 flex flex-col xl:flex-row justify-center pt-5 mb-[-100px] overflow-visible w-auto">
         <p
           className="bg-white text-center 
          md:w-auto p-4 font-semibold font-rubik
@@ -56,6 +57,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Header />
       <Content />
 
       <Marquee direction="right">
