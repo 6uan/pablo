@@ -1308,6 +1308,10 @@ a:hover {
 }
 
 @media (min-width: 640px) {
+  .sm\:h-full {
+    height: 100%;
+  }
+
   .sm\:w-\[450px\] {
     width: 450px;
   }
@@ -1441,6 +1445,14 @@ a:hover {
 
   .lg\:h-\[625px\] {
     height: 625px;
+  }
+
+  .lg\:h-auto {
+    height: auto;
+  }
+
+  .lg\:h-full {
+    height: 100%;
   }
 
   .lg\:w-\[400px\] {
