@@ -8,6 +8,7 @@ import PabloImg from "./components/PabloImg";
 import PabloSmallImg from "./components/PabloSmallImg";
 import memeNames from "./utils/memeImages.js";
 import PabloWideImg from "./components/PabloWideImg.jsx";
+import Collage from "./components/Collage.jsx";
 
 function App() {
   console.log(memeNames.pablo);
@@ -87,6 +88,8 @@ function App() {
         <PabloSmallImg src={memeNames.pablodrake} />
         <PabloSmallImg src={memeNames.pablofacetime} />
       </Marquee>
+
+      <Collage />
 
       {/* 
 
