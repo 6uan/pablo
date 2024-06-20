@@ -21,6 +21,7 @@ import pablotate from "../assets/pablotate.png";
 import pabloheart from "../assets/pabloheart.png";
 import pablodrake from "../assets/pablodrake.webp";
 import pablofacetime from "../assets/pablofacetime.png";
+import pablosign from "../assets/pablosign.png";
 
 const memeNames = {
   pablochain,
@@ -46,6 +47,7 @@ const memeNames = {
   pabloheart,
   pablodrake,
   pablofacetime,
+  pablosign,
 };
 
 export default memeNames;

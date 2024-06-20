@@ -1,9 +1,9 @@
 import pablohalo from "../assets/pablohalo.webp";
-import pablosign from "../assets/pablosign.png";
+import newpablo from "../assets/newpablo.webp";
 import pabloiq from "../assets/pabloiq.png";
 import pabloblm from "../assets/pabloblm.png";
 import PABLO from "../assets/PABLO.mov";
-import pablovid from "../assets/pablovid.mov";
+import pablovid from "../assets/pablovid.mp4";
 
 import ReactPlayer from "react-player";
 
@@ -19,7 +19,7 @@ export default function Collage() {
           src={pablohalo}
           className="col-start-2 col-end-3 row-start-1 row-end-2 h-full"
         />
-        <img src={pablosign} className=" col-start-3 col-end-4 h-full" />
+        <img src={newpablo} className=" col-start-3 col-end-4 h-full" />
         <img
           src={pabloblm}
           className="col-start-2 col-end-3 row-start-2 row-end-3 h-full"

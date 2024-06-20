@@ -9,6 +9,7 @@ import PabloSmallImg from "./components/PabloSmallImg";
 import memeNames from "./utils/memeImages.js";
 import PabloWideImg from "./components/PabloWideImg.jsx";
 import Collage from "./components/Collage.jsx";
+import telegram from "./assets/telegram.png";
 
 function App() {
   console.log(memeNames.pablo);
@@ -39,6 +40,19 @@ function App() {
               src={pump}
               className="h-16 w-16 md:h-14 md:w-14 w content-fit"
             />
+          </div>
+
+          <div className="h-24 w-24 md:h-20 md:w-20 flex justify-center items-center">
+            <a
+              className="hover:cursor-pointer"
+              target="_blank"
+              href="https://t.me/ElPabloSolana"
+            >
+              <img
+                src={telegram}
+                className="h-14 w-14 md:h-12 md:w-12 w content-fit"
+              />
+            </a>
           </div>
         </div>
       </div>
@@ -82,7 +96,7 @@ function App() {
         <PabloSmallImg src={memeNames.pablofacetime} />
         <PabloSmallImg src={memeNames.pabloirish} />
         <PabloSmallImg src={memeNames.pablo} />
-        <PabloSmallImg src={memeNames.pabloescobar} />
+        <PabloSmallImg src={memeNames.pablosign} />
         <PabloSmallImg src={memeNames.pablotate} />
         <PabloSmallImg src={memeNames.pabloheart} />
         <PabloSmallImg src={memeNames.pablodrake} />

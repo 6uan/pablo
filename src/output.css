@@ -767,6 +767,10 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -1794,6 +1798,10 @@ a:hover {
     height: 300px;
   }
 
+  .md\:h-12 {
+    height: 3rem;
+  }
+
   .md\:w-auto {
     width: auto;
   }
@@ -1820,6 +1828,10 @@ a:hover {
 
   .md\:w-\[500px\] {
     width: 500px;
+  }
+
+  .md\:w-12 {
+    width: 3rem;
   }
 
   .md\:flex-row {
@@ -1907,6 +1919,23 @@ a:hover {
     flex-direction: row;
   }
 
+  .lg\:gap-5 {
+    gap: 1.25rem;
+  }
+
+  .lg\:p-20 {
+    padding: 5rem;
+  }
+
+  .lg\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .lg\:pl-20 {
+    padding-left: 5rem;
+  }
+
   .lg\:text-\[450px\] {
     font-size: 450px;
   }
@@ -1953,6 +1982,10 @@ a:hover {
 }
 
 @media (min-width: 1280px) {
+  .xl\:ml-5 {
+    margin-left: 1.25rem;
+  }
+
   .xl\:w-auto {
     width: auto;
   }
@@ -1961,8 +1994,32 @@ a:hover {
     width: 50%;
   }
 
+  .xl\:w-96 {
+    width: 24rem;
+  }
+
+  .xl\:w-\[\] {
+    width: ;
+  }
+
+  .xl\:w-\[450px\] {
+    width: 450px;
+  }
+
+  .xl\:w-\[490px\] {
+    width: 490px;
+  }
+
+  .xl\:w-\[600px\] {
+    width: 600px;
+  }
+
   .xl\:flex-row {
     flex-direction: row;
+  }
+
+  .xl\:gap-5 {
+    gap: 1.25rem;
   }
 
   .xl\:p-4 {
@@ -1972,6 +2029,24 @@ a:hover {
   .xl\:px-24 {
     padding-left: 6rem;
     padding-right: 6rem;
+  }
+
+  .xl\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .xl\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .xl\:pl-10 {
+    padding-left: 2.5rem;
+  }
+
+  .xl\:pl-20 {
+    padding-left: 5rem;
   }
 
   .xl\:text-\[450px\] {

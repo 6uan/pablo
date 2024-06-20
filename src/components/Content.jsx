@@ -31,11 +31,11 @@ export default function Content() {
           />
         </div>
       </div>
-      <div className="relative flex h-full w-full justify-center items-center">
+      <div className="relative flex h-full w-full lg:gap-5 justify-center items-center">
         <div className="z-0 absolute size-14 top-0 left-0 lg:top-20 lg:left-24">
           <img src={quote} />
         </div>
-        <p className="z-10 font-open text-lg md:text-4xl pt-10 px-0 md:px-2 xl:px-24 leading-relaxed lx:leading-[55px]">
+        <p className="lg:pl-20 z-10 font-open text-lg md:text-4xl pt-10 px-0 md:px-2 xl:px-24 leading-relaxed lx:leading-[55px]">
           <a href="https://www.reddit.com/r/PABLOSDECIPLES/comments/1d31ej5/this_is_stupid_fk_pablo/">
             {words}
           </a>
