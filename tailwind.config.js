@@ -14,6 +14,7 @@ export default {
       },
       fontFamily: {
         open: ["Open Sans", "sans-serif"], // Make sure the font name is a string
+        rubik: ["Rubik", "sans-serif"],
       },
     },
   },

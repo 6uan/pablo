@@ -19,10 +19,10 @@ function App() {
       <div className="px-10 flex flex-col xl:flex-row justify-center pt-5 overflow-visible w-auto">
         <p
           className="bg-white text-center 
-         md:w-auto p-4 font-semibold 
-         text-[15px] md:text-[35px] lg:text-[40px] xl:text-[50px] text-black"
+         md:w-auto p-4 font-semibold font-rubik
+         text-[13px] md:text-[24px] lg:text-[33px] xl:text-[40px] text-black"
         >
-          3De8feegw4G4wggegsqeqkaiopump
+          ----------------------------------------pump
         </p>
         <div className="flex flex-row justify-center items-center">
           <div className="h-24 w-24 md:h-20 md:w-20">

@@ -36,7 +36,7 @@ export default function Collage() {
           <div className="flex justify-center items-center h-full">
             <a
               href="https://www.example.com"
-              className="flex items-center justify-center font-sans text-5xl bg-blue-500 text-white w-96 h-44 rounded-3xl hover:bg-blue-700 transition-colors"
+              className="flex items-center justify-center font-rubik text-5xl bg-blue-500 text-white w-96 h-44 rounded-3xl hover:bg-blue-700 transition-colors"
             >
               BUY $PABLO
             </a>
